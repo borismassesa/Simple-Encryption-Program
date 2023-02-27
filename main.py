@@ -37,4 +37,4 @@ def encrypt(plain_text, shift_amount):
     print(f"The encoded text is {cipher_text}")
 
 
-encrypt(text, shift)
+encrypt(plain_text=text, shift_amount=shift)
